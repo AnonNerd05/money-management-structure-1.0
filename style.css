@@ -1,0 +1,52 @@
+body {
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: 900;
+font-style : normal;
+background: #f5f7fa;
+background: rgba(85, 153, 255, 0.651);
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+}
+
+
+.container {
+max-width: 500px;
+margin: 80px auto;
+padding: 30px;
+background: white;
+text-align: center;
+border-radius: 8px;
+}
+
+
+h1, h2 {
+color: #0b3c91;
+}
+
+
+input {
+width: 100%;
+padding: 12px;
+margin-top: 15px;
+}
+
+
+.btn {
+display: inline-block;
+margin-top: 20px;
+padding: 12px 20px;
+background: #0b3c91;
+color: white;
+text-decoration: none;
+border: none;
+cursor: pointer;
+}
+
+
+#error {
+color: red;
+}
